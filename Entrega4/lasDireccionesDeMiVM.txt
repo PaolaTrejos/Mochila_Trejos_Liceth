@@ -1,0 +1,6 @@
+IP privada de mi VM:
+10.0.2.15
+Direccion MAC:
+08:00:27:96:8c:14
+Sí, la dirección MAC es diferente de las direcciones IP pública y privada de una maquina host.
+Ya que la dirección MAC es un identificador físico unico de una tarjeta de red, mientras que las direcciones IP pública y privada son identificadores logicos utilizados para comunicarse en redes, tanto de internet como en redes locales.
