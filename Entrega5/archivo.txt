@@ -1,0 +1,25 @@
+* Telnet:
+
+Ventajas:
+- Telnet es un protocolo simple y fácil de implementar. No requiere una configuración compleja y puede ser utilizado rápidamente.
+- Telnet es compatible con una amplia gama de dispositivos y sistemas operativos, lo que lo hace accesible en diferentes entornos.
+
+Desventajas:
+- Telnet no cifra los datos transmitidos, lo que significa que la información, incluyendo contraseñas, se envía en texto plano. Esto hace que sea vulnerable a ataques de sniffing y puede comprometer la confidencialidad de los datos.
+- Telnet utiliza un sistema de autenticación simple basado en texto plano, lo que lo hace susceptible a ataques de suplantación y adivinación de contraseñas.
+
+* SSH:
+
+Ventajas:
+- SSH proporciona una capa adicional de seguridad mediante la autenticación y el cifrado de los datos transmitidos. La información sensible, como las contraseñas, se cifra, lo que reduce el riesgo de interceptación y acceso no autorizado.
+- SSH es un protocolo versátil que permite no solo el acceso remoto a través de la línea de comandos, sino también la transferencia segura de archivos y el establecimiento de túneles para redireccionar el tráfico a través de conexiones seguras.
+
+Desventajas:
+- SSH requiere una configuración inicial más detallada en comparación con Telnet. Esto puede implicar la generación y el intercambio de claves criptográficas, lo que puede requerir conocimientos técnicos adicionales.
+- SSH utiliza una mayor cantidad de recursos de hardware y ancho de banda en comparación con Telnet debido a los cálculos criptográficos necesarios para cifrar y descifrar los datos transmitidos.
+
+* Principales diferencias entre SSH y Telnet:
+
+- La principal diferencia radica en la seguridad. SSH cifra los datos transmitidos, mientras que Telnet no lo hace. SSH proporciona autenticación basada en claves criptográficas, lo que mejora la seguridad de las conexiones.
+- SSH utiliza cifrado simétrico y asimétrico para proteger los datos transmitidos, mientras que Telnet no proporciona ningún cifrado, lo que hace que los datos sean vulnerables a ataques de interceptación.
+- SSH ofrece características adicionales, como la transferencia segura de archivos (SFTP), la reanudación de sesiones interrumpidas y la capacidad de redirigir el tráfico a través de conexiones seguras. Telnet se limita principalmente a la funcionalidad de acceso remoto a través de la línea de comandos.
